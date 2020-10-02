@@ -1,1 +1,36 @@
 /* Type whatever CSS you need here! */
+
+.name-tag {
+    text-align: center;
+    border: black;
+    border-style: solid;
+    margin: 3%;
+    width: 268px;
+    height: 147px;
+}
+
+.intro {
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.present {
+    background-color: green;
+    margin: 3%;
+}
+
+.absent {
+    background-color: red;
+    margin: 3%;
+}
