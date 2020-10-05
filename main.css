@@ -34,3 +34,13 @@
     background-color: red;
     margin: 3%;
 }
+
+.poker-hand {
+    display: inline;
+}
+
+img {
+    height: 15%;
+    width: 15%;
+    margin: 1%;
+}
