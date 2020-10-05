@@ -1,8 +1,29 @@
 
 function renderMovies(movies) {
+    let movieHtml = movies.map(function(movie) {
+        return `
+        <div class="movie">
+            <div class="poster"><img class="movies" src="${movie.poster}"><div>
+                <div class="movie-info">
+                    <div class="name-year">
+                        ${movie.title}<br>
+                        ${movie.year}<br>
+                    </div>
+                    <div class="IMDB-rating">
+                        IMDB:<br>
+                        ${movie.imdbRating} / 10
+                    </div>
+                    <div class="rottenTomatoes-rating">
+                        ${movie.rottenTomatoesRating * 100}%
+                    </div>
+            </div>
+        </div>
+        `
+    })
+    
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(movies)}</code>
+            ${movieHtml.join('')}
         </div>
     `
 }

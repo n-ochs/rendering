@@ -4,7 +4,7 @@ function renderPokerHand(pokerHand) {
     let valueHtml = pokerHand.map(function(card) {
         return `
         <div class="poker-hand">
-            <img src="/cards/${card.value}${card.suit}.png"/>
+            <img class="poker" src="/cards/${card.value}${card.suit}.png"/>
         </div>
         `
     })

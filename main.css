@@ -39,7 +39,7 @@
     display: inline;
 }
 
-img {
+.poker {
     height: 15%;
     width: 15%;
     margin: 1%;
@@ -52,4 +52,13 @@ img {
     margin: 1%;
     height: auto;
     width: 250px;
+}
+
+.movie {
+    display: inline;
+}
+
+.poster {
+    display: flex;
+    justify-content: left;
 }
