@@ -44,3 +44,12 @@ img {
     width: 15%;
     margin: 1%;
 }
+
+.restaurant-review {
+    display: inline-block;
+    border: solid;
+    border-radius: 25px;
+    margin: 1%;
+    height: auto;
+    width: 250px;
+}
